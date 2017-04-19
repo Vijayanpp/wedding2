@@ -62,7 +62,7 @@ jQuery(document).ready(function($){
 
         // Add a Marker
         var marker2 = new google.maps.Marker({
-            position: new google.maps.LatLng(9.966948, 76.284083);,
+            position: new google.maps.LatLng(9.966948, 76.284083),
             map: alleventMap,
             //title: 'Wedding Party',
             icon: markerIco

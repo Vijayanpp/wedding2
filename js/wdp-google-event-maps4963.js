@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
         /* Main Ceremony Map */
 
-        var eventMapCenter1=new google.maps.LatLng(37.8069934, -122.2958658); // Create a LatLng object to center the map on a specific point
+        var eventMapCenter1=new google.maps.LatLng(10.099087, 76.276998); // Create a LatLng object to center the map on a specific point
 
         // Set Map Properties 
 		var eventMapProp1 = {
@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
 
 		eventMapMarker1.setMap(eventMap1);
 
-		var eventMapContent1 = '<h5>Main Ceremony</h5>'+'<p>10.00 am to 2.00 pm.</p>'; // Store an Infowindow content 
+		var eventMapContent1 = '<h5>Main Ceremony</h5>'+'<p>08.00 am to 08.30 am.</p>'; // Store an Infowindow content 
 
 		// Show an InfoWindow with some text content for The Marker
 		var evenMapInfo1 = new google.maps.InfoWindow({
@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
 
 		/* Wedding Party Map */
 
-        var eventMapCenter2=new google.maps.LatLng(37.8074592, -122.2968658); // Create a LatLng object to center the map on a specific point
+        var eventMapCenter2=new google.maps.LatLng(9.966631, 76.284072); // Create a LatLng object to center the map on a specific point
 
 		var eventMapProp2 = { // Set Map Properties
 			center:eventMapCenter2,

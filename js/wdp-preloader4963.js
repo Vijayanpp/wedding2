@@ -7,5 +7,5 @@ jQuery(window).load(function($){
     "use strict";
 
     /* Hide preloader after all contents are loaded */
-    jQuery('.wdp_preloader').addClass('animated fadeOutDown');
+    jQuery('.wdp_preloaders').addClass('animated fadeOutDown');
 });

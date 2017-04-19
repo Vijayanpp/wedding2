@@ -1,0 +1,139 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\vvvv\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Apr 19 2017 21:12:33 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swaroopwedsanjana  
+ Wed Apr 19 2017 21:12:33 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swaroopwedsanjana/tokens  
+ Wed Apr 19 2017 21:12:37 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'swaroopwedsanjana'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/swaroopwedsanjana/uploads/-Ki5sS7LHClv4DELi6lo?fileCount=95&message=  
+ Wed Apr 19 2017 21:12:55 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\vvvv\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Apr 19 2017 21:20:10 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/q_tZNhHcKFFPqbAx1xGOGe1NpmWbl8ZTbE8B_mSO5pE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Apr 19 2017 21:20:10 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swaroopwedsanjana  
+ Wed Apr 19 2017 21:20:13 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swaroopwedsanjana/tokens  
+ Wed Apr 19 2017 21:20:18 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'swaroopwedsanjana'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/swaroopwedsanjana/uploads/-Ki5uC3La6fjZ3qIfAX5?fileCount=166&message=  
+ Wed Apr 19 2017 21:20:34 GMT+0530 (India Standard Time)
+[debug] Error: connect ETIMEDOUT 23.251.151.130:443
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 23.251.151.130:443
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\vvvv\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Apr 19 2017 21:22:02 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swaroopwedsanjana  
+ Wed Apr 19 2017 21:22:02 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swaroopwedsanjana/tokens  
+ Wed Apr 19 2017 21:22:04 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'swaroopwedsanjana'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/swaroopwedsanjana/uploads/-Ki5u_Zj5KopdRkN-5bk?fileCount=166&message=  
+ Wed Apr 19 2017 21:22:11 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\vvvv\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Apr 19 2017 21:33:20 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swaroopwedsanjana  
+ Wed Apr 19 2017 21:33:20 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swaroopwedsanjana/tokens  
+ Wed Apr 19 2017 21:33:36 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'swaroopwedsanjana'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/swaroopwedsanjana/uploads/-Ki5xMq67Bf_TJBQaRKg?fileCount=166&message=  
+ Wed Apr 19 2017 21:34:23 GMT+0530 (India Standard Time)
+[debug] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1094:19)
+    at TLSSocket.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\vvvv\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Apr 19 2017 21:36:11 GMT+0530 (India Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swaroopwedsanjana  
+ Wed Apr 19 2017 21:36:11 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swaroopwedsanjana/tokens  
+ Wed Apr 19 2017 21:36:19 GMT+0530 (India Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'swaroopwedsanjana'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/swaroopwedsanjana/uploads/-Ki5xt5P8bE4rdqZ9fAo?fileCount=166&message=  
+ Wed Apr 19 2017 21:36:38 GMT+0530 (India Standard Time)
